@@ -1,0 +1,31 @@
+name=input("Enter Employee Name: ")
+hours=input("Enter number of hours: ")
+hours=int(hours)
+sss=input("SSS Contribution: ")
+sss=int(sss)
+
+phil=input("Phil Health: ")
+phil=int(phil)
+pag=input("Pag-ibig Loan: ")
+pag=int(pag)
+Ratehr=float(500)
+Gs= float(Ratehr *hours),
+Tax= float(Gs*0.1),
+
+TotalD=float(sss+phil+pag+Tax),
+net=float(Gs-TotalD),
+
+print(f'=====================PAYSLIP===================')
+print(f'==============employee information===================')
+print(f'Employee Name: ',name)
+print(f'Rendered Hours: ',hours)
+print(f'Rate Per Hour: ',Ratehr)
+print(f'Gross Salary: ',Gs)
+print(f'===================Deductions=============')
+print(f'SSS: ',sss)
+print(f'Phil Health: ',phil)
+print(f'Other Loan: ',pag)
+print(f'Tax: ',Tax)
+print(f'Total Deductions: ',TotalD)
+print("\")
+print(" NET SALARY PAY : ",net)
